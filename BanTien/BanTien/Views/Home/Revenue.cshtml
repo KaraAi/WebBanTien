@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "Doanh thu";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+
+
+<img src="https://gdURL.com/Ywcd" height=" 700" width="1200"/>
+@*<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>*@
+<!--<canvas id="myChart" width="20" height="20" ></canvas>
+<button id="daily">Theo ngày</button>
+<script>var ctx = document.getElementById('myChart').getContext('2d');
+    ctx.height = 50;
+    var myChart = new Chart(ctx, {
+        type: 'line',
+
+        data: {
+            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            datasets: [{
+                label: "Earnings",
+                lineTension: 0.3,
+                backgroundColor: "rgba(78, 115, 223, 0.05)",
+                borderColor: "rgba(78, 115, 223, 1)",
+                pointRadius: 3,
+                pointBackgroundColor: "rgba(78, 115, 223, 1)",
+                pointBorderColor: "rgba(78, 115, 223, 1)",
+                pointHoverRadius: 3,
+                pointHoverBackgroundColor: "rgba(78, 115, 223, 1)",
+                pointHoverBorderColor: "rgba(78, 115, 223, 1)",
+                pointHitRadius: 10,
+                pointBorderWidth: 2,
+                data: [0, 10000, 5000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000],
+            }],
+        },
+
+        //data: {
+        //    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        //    datasets: [{
+        //        label: 'Doanh số theo ngày',
+
+        //        data: [12, 19, 3, 5, 2, 3],
+        //        borderColor: [
+        //            'rgba(255, 99, 132, 1)',
+        //            'rgba(54, 162, 235, 1)',
+        //            'rgba(255, 206, 86, 1)',
+        //            'rgba(75, 192, 192, 1)',
+        //            'rgba(153, 102, 255, 1)',
+        //            'rgba(255, 159, 64, 1)'
+        //        ],
+        //        borderWidth: 2
+        //    }]
+        //},
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }]
+            },
+            maintainAspectRatio: false
+        }
+    });
+
+    $('#daily').click(function () {
+        $.ajax({
+            url: "/Home/dailyRevenue",
+            dataType: "JSON",
+            success: function (response) {
+
+            },
+            error: function () {
+                alert('Lỗi');
+            }
+        })
+    })
+</script>-->
+
+

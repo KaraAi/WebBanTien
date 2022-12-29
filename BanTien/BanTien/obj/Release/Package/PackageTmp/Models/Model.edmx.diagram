@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="07cc1c68c61343efa0ff92bd98d169cf" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="BANTIENModel.Admin" Width="1.5" PointX="14.375" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.DanhGiaTien" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.GioHang" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.HoaDon" Width="1.5" PointX="12.125" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.KhachHang" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.LoaiTien" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.SanPham" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.sysdiagram" Width="1.5" PointX="3.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BANTIENModel.TaiKhoan" Width="1.5" PointX="11" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="BANTIENModel.FK_Admin_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="BANTIENModel.FK_DanhGiaTien_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="BANTIENModel.FK_DanhGiaTien_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="BANTIENModel.FK_GioHang_HoaDon1" ManuallyRouted="false" />
+        <AssociationConnector Association="BANTIENModel.FK_GioHang_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="BANTIENModel.FK_GioHang_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="BANTIENModel.FK_KhachHang_TaiKhoan" ManuallyRouted="false" />
+        <AssociationConnector Association="BANTIENModel.FK_SanPham_LoaiTien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
